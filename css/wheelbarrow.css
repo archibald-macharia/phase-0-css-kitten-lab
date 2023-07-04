@@ -15,13 +15,14 @@ img {
   margin: 0 auto;
 }
 
-#wheelbarrow, #wheelbarrow-foreground {
+#wheelbarrow,
+#wheelbarrow-foreground {
   margin-left: 80px;
   width: 688px;
   height: 514px;
 }
 
-#wheelbarrow { 
+#wheelbarrow {
   position: relative;
   background: url(../images/wheelbarrow.png) no-repeat;
   z-index: 0;
@@ -35,6 +36,14 @@ img {
   top: 220px;
 }
 
-#basket, #ball {
+#basket,
+#ball {
   display: inline;
+}
+/* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
+img[alt="kitty 5"] {
+  position: absolute;
+  z-index: 3;
+  top: 217px;
+  left: 223px;
 }
